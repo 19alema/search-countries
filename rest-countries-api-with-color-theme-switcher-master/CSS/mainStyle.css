@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;600;800&display=swap');
+
+
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+/* Remove default margin */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+figure,
+blockquote,
+dl,
+dd {
+    margin: 0;
+    font-family: Nunito Sans;
+}
+
+
+/* Set core root defaults */
+html:focus-within {
+    scroll-behavior: smooth;
+}
+
+/* Set core body defaults */
+body {
+    min-height: 100vh;
+    text-rendering: optimizeSpeed;
+    line-height: 1.5;
+}
+
+
+/* Make images easier to work with */
+img,
+picture {
+    max-width: 100%;
+    display: block;
+}
+
+/* Inherit fonts for inputs and buttons */
+input,
+button,
+textarea,
+select {
+    font: inherit;
+}
+
+
+
+/* GENERAL COLOR PLATELETS */
+:root {
+    /* Colors */
+    --dark-blue-color: hsl(209, 23%, 22%);
+    --very-dark-blue-dmBg: hsl(207, 26%, 17%);
+    --very-dark-blue-lmt: hsl(200, 15%, 8%);
+    --dark-gray-lminput:hsl(0, 0%, 52%);
+    --very-light-gray-lmBg: hsl(0, 0%, 98%);
+    --white-dmt-lmelem: hsl(0, 0%, 100%);
+
+    /* Font-weights */
+    --weight-light: 300;
+    --weight-light-heavy: 600;
+    --bold-weight: 800;
+
+    /* Font-size */
+
+    --fontSize: 14px;
+    --detailFontSize: 16px;
+
+    --shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    --radius: 5px;
+
+}
+
+/* CUSTOM CSS */
+
+
+.flex__center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.grid__center {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
