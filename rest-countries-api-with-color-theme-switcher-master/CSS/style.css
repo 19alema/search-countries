@@ -33,13 +33,11 @@ select,input {
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
     padding: 1em 30px;
     border: 0;
+    outline: none;
+    border-radius: var(--radius);
+
 }
-input {
-    
- border-radius: var(--radius);
-  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
-  outline: none;
-}
+
 /* Country */
 
 .single_country {
@@ -49,9 +47,14 @@ input {
     border-radius: var(--radius)
 }
 
-.single_country .flag {
-    display: block;
-    padding: 4em 0;
+.country__flag {
+    width: 100%;
+
+}
+
+.country__flag .flag{
+    border-top-right-radius: var(--radius);
+    border-top-left-radius: var(--radius);
 }
 .single_country .content_info {
     padding: 1em 20px;
